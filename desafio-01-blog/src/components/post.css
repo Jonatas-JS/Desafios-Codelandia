@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  width: 50vw;
+}
+.post {
+  background: var(--white-100);
+}
