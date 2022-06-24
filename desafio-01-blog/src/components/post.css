@@ -6,4 +6,25 @@
 }
 .post {
   background: var(--white-100);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.160784);
+}
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post-header p, .post-header span {
+  margin: 0;
+}
+.post-header span:hover {
+  background: red;
+}
+.post h3 {
+  font-size: 1.62rem;
+  font-weight: 400;
+}
+.post p {
+  font-size: 1.12rem;
 }

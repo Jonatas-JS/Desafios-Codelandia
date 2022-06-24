@@ -24,3 +24,4 @@ const posts = [
     date: '02 de jul, 2021',
   },
 ]
+console.log('oi')
