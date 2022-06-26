@@ -1,6 +1,5 @@
 .container {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   width: 50vw;
 }
@@ -9,6 +8,14 @@
   padding: 1.5rem;
   border-radius: 10px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.160784);
+
+  margin-bottom: 1rem;
+}
+.posts-list:first-child {
+  margin-top: 2rem;
+}
+.posts-list:last-child {
+  margin-bottom: 2rem;
 }
 .post-header {
   display: flex;
@@ -18,8 +25,13 @@
 .post-header p, .post-header span {
   margin: 0;
 }
-.post-header span:hover {
-  background: red;
+.post-header span svg {
+  width: 1.5rem;
+  stroke: var(--purple-100);
+}
+
+.post-header span svg path:hover {
+  fill: var(--purple-100);
 }
 .post h3 {
   font-size: 1.62rem;
@@ -27,4 +39,10 @@
 }
 .post p {
   font-size: 1.12rem;
+}
+
+@media(max-width: 840px) {
+  .container {
+    width: 95vw;
+  }
 }
