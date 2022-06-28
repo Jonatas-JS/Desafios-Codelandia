@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--purple-light);
+
+  padding: 4.81rem 6.31rem;
+}
+.headerText h2 {
+  font-size: 2.25rem;
+  line-height: 2.93rem;
+}
+.headerText p {
+  
+}
