@@ -1,0 +1,23 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+
+  color: var(--white-100);
+  background-image: url('../assets/Air-Jordan-00-Retro-High-OG-Wmns-TWIST-Feminino 1.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  justify-content: center;
+  padding: 8.06rem 6.25rem;
+}
+.banner h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.43rem;
+}
+.banner p {
+  font-size: 1.12rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+}
