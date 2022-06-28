@@ -21,3 +21,15 @@
   font-weight: 600;
   line-height: 2.2rem;
 }
+
+@media(max-width: 840px) {
+  .banner {
+    padding: 7.62rem 1.25rem;
+  }
+  .banner h2 {
+    font-size: 1.75rem;
+  }
+  .banner p {
+    font-size: .99rem;
+  }
+}

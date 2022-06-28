@@ -23,6 +23,7 @@ body {
 
   background: var(--white-100);
   color: var(--black-100);
+
   font-size: 1rem;
   font-weight: 500;
 }
@@ -34,4 +35,10 @@ body:-webkit-scrollbar-track {
 }
 body::-webkit-scrollbar-thumb {
   background: var(--black-100);
+}
+
+@media(max-width: 840px) {
+  body {
+    font-size: 87%;
+  }
 }

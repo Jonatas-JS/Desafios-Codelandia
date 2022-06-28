@@ -3,3 +3,7 @@
   background-color: var(--white-200);
   margin: .8rem;
 }
+.card a img:hover {
+  -webkit-transform: scale(1.1);
+  -webkit-transition: transform .4s ease-in-out;
+}
