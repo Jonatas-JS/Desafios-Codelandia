@@ -1,3 +1,58 @@
 .formContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   background: var(--purple-light);
+}
+.formContact h2 {
+  font-size: 2rem;
+  margin: 5.31rem auto 3.75rem auto;
+}
+.formContact form {
+  width: 29.37rem;
+
+  display: flex;
+  flex-direction: column;
+}
+.formContact input {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.12rem;
+  font-weight: 400;
+  line-height: 1.35rem;
+  outline: none; /* remover border focus*/
+
+
+  padding: .93rem 1.37rem;
+  background: var(--white-100);
+  border: none;
+  border-radius: .37rem;
+  margin-bottom: .93rem;
+}
+.formContact form textarea {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.12rem;
+  font-weight: 400;
+  line-height: 1.35rem;
+  outline: none; /* remover border focus*/
+
+
+  padding: .93rem 1.37rem;
+  background: var(--white-100);
+  border: none;
+  border-radius: .37rem;
+
+  resize: none; /* bloqueia a possibilidade do cliente alterar o tamaho da caixa textarea */
+}
+.formContact input:last-child {
+  width: 100%;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+
+  color: var(--white-100);
+  background: var(--purple);
+
+  margin: 1.87rem auto 5rem auto;
 }

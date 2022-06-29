@@ -29,3 +29,9 @@ body {
 h2 {
   font-family: 'Merriweather', serif;
 }
+
+@media(max-width: 840px) {
+  body {
+    font-size: 85.7%;
+  }
+}

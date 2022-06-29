@@ -1,6 +1,8 @@
 .cardsList {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4.25rem 11rem;
 
-  margin: 9.37rem auto;
+  margin: 9.37rem 6.25rem;
 }
