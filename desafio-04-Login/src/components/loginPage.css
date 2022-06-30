@@ -1,0 +1,9 @@
+.login-page {
+  width: 50vw;
+
+  display: grid;
+  /* align-items: center; */
+  justify-content: center;
+  
+  background: var(--white-100);
+}

@@ -1,0 +1,13 @@
+.login-page header {
+  font-family: 'Merriweather', serif;
+}
+.login-page header p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+.login-page header h2 {
+  font-size: 1.62rem;
+  font-weight: 700;
+  line-height: 2.04rem;
+}
