@@ -16,7 +16,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   width: 100%;
   height: 100%;
@@ -32,6 +31,6 @@ h2 {
 
 @media(max-width: 840px) {
   body {
-    font-size: 85.7%;
+    font-size: 55.7%;
   }
 }

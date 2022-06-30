@@ -6,3 +6,10 @@
 
   margin: 9.37rem 6.25rem;
 }
+
+@media(max-width: 840px) {
+  .cardsList {
+    margin: 4.68rem auto;
+    justify-content: center;
+  }
+}
