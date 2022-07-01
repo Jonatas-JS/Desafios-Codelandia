@@ -1,9 +1,15 @@
 .login-page {
   width: 50vw;
+  margin-top: 20vh;
 
   display: grid;
-  /* align-items: center; */
   justify-content: center;
   
   background: var(--white-100);
+}
+
+@media(max-width: 840px) {
+  .login-page {
+    margin-top: 0;
+  }
 }

@@ -1,6 +1,7 @@
 @import url(./components/webDisplay.css);
 @import url(./components/header.css);
 @import url(./components/loginPage.css);
+@import url(./components/formulario.css);
 @import url(./components/footer.css);
 
 :root {
@@ -20,9 +21,14 @@ body {
   height: 100%;
 
   font-family: 'Lato', sans-serif;
+  color: var(--gray);
 }
 input, button {
   font-family: 'Lato', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: var(--purple-light);
 }
 .container {
   height: 100%;
