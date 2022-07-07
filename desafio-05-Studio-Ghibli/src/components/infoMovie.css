@@ -1,0 +1,24 @@
+.movie {
+  display: flex;
+  align-items: center;
+}
+
+.movie-description {
+  width: 33%;
+}
+.info-movie h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.87rem;
+}
+.info-movie h1 {
+  font-size: 4.25rem;
+  font-weight: 900;
+  line-height: 4.63rem;
+}
+.info-movie p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+

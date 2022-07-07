@@ -1,0 +1,10 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-media {
+  display: flex;
+  gap: 1.87rem;
+  list-style: none;
+}
