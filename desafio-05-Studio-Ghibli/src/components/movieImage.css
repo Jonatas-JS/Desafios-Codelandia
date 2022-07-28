@@ -1,3 +1,6 @@
+.movie-image {
+  z-index: 0;
+}
 .movie-image img{
-  width: 500px;
+  width: 40rem;
 }

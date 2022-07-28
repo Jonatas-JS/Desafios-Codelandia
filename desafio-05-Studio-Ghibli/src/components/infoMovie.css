@@ -1,6 +1,8 @@
 .movie {
+  height: 93%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .movie-description {
@@ -10,15 +12,18 @@
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 1.87rem;
+  margin-bottom: .87rem;
 }
 .info-movie h1 {
   font-size: 4.25rem;
   font-weight: 900;
   line-height: 4.63rem;
+  margin-bottom: 1.56rem;
 }
-.info-movie p {
+.info-movie > p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.8rem;
+  margin-bottom: 2.87rem;
 }
 

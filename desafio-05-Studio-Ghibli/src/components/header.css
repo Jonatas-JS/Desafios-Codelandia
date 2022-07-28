@@ -4,6 +4,7 @@ header {
   align-items: center;
 }
 .social-media {
+  z-index: 1;
   display: flex;
   gap: 1.87rem;
   list-style: none;
