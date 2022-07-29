@@ -8,17 +8,25 @@
   line-height: 1.8rem;
 }
 .play-movie {
-  /* width: 300px; */
-  display: flex;
-  align-items: center;
-  gap: .88rem;
   padding: .5rem 2.06rem;
   background: var(--green-100);
   clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
 }
+.play-movie a, .play-trailer a {
+  display: flex;
+  align-items: center;
+  gap: .88rem;
+  text-decoration: none;
+  color: var(--white);
+}
 .play-trailer {
-  /* width: 300px; */
   padding: .5rem 2.06rem;
   border: 3px solid var(--green-100);
   clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+}
+
+@media(max-width: 840px) {
+  .play-movie a, .play-trailer a {
+    font-size: 1.04rem;
+  }
 }

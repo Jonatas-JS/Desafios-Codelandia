@@ -4,3 +4,12 @@
 .movie-image img{
   width: 40vw;
 }
+
+@media(max-width: 840px) {
+  .movie-image {
+    grid-row: 1/2;
+  }
+  .movie-image img {
+    width: 100%;
+  }
+}

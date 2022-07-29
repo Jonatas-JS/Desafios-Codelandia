@@ -28,3 +28,22 @@
   margin-bottom: 2.87rem;
 }
 
+
+@media(max-width: 840px) {
+  .movie-description {
+    width: 100%;
+  }
+  .movie {
+    display: grid;
+  }
+  .info-movie h3 {
+    /* font-size: 1.12rem; */
+  }
+  .info-movie h1 {
+    /* font-size: 3.5rem; */
+  }
+  .info-movie > p {
+    width: 90%;
+    /* font-size: .87rem; */
+  }
+}
