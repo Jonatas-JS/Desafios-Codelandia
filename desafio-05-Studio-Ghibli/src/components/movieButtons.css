@@ -1,0 +1,24 @@
+.movie-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+.play-movie {
+  /* width: 300px; */
+  display: flex;
+  align-items: center;
+  gap: .88rem;
+  padding: .5rem 2.06rem;
+  background: var(--green-100);
+  clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+}
+.play-trailer {
+  /* width: 300px; */
+  padding: .5rem 2.06rem;
+  border: 3px solid var(--green-100);
+  clip-path: polygon(12% 0%, 100% 0, 88% 100%, 0% 100%);
+}
