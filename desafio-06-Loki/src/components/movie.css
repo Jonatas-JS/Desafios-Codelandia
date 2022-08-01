@@ -1,0 +1,6 @@
+.movie {
+  display: flex;
+}
+.movie-poster img {
+  border-radius: 1.25rem;
+}

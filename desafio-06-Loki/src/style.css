@@ -1,3 +1,9 @@
+@import url(./components/movie.css);
+@import url(./components/infoMovie.css);
+@import url(./components/title.css);
+@import url(./components/sinopse.css);
+@import url(./components/buttons.css);
+
 :root {
   --yellow-100: #FFA800;
   --blue-100: #0072D2;
@@ -19,4 +25,5 @@ body {
   background-position: center;
 
   font-family: 'B612', sans-serif;
+  color: var(--white);
 }

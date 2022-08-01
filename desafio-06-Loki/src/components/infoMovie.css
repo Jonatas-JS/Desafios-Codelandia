@@ -1,0 +1,15 @@
+.info-movie {
+  display: flex;
+  align-items: center;
+}
+.time {
+  display: flex;
+  align-items: center;
+
+  gap: .90rem;
+}
+.time, .info-movie p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.82rem;
+}
