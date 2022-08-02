@@ -1,6 +1,8 @@
 .info-movie {
   display: flex;
   align-items: center;
+  gap: 6.68rem;
+  margin-top: 2.70rem;
 }
 .time {
   display: flex;

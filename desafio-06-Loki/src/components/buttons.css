@@ -1,0 +1,20 @@
+.buttons {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1.31rem;
+}
+#butttonWatch, #buttonTrailer {
+  padding: .93rem 1.68rem;
+  background: var(--blue-100);
+  color: var(--white);
+  border-radius: .18rem;
+  border: 1px solid var(--blue-100);
+
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.36rem;
+}
+#buttonTrailer {
+  background: var(--balck);
+  border: 1px solid var(--white);
+}

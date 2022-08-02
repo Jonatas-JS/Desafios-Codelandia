@@ -27,3 +27,7 @@ body {
   font-family: 'B612', sans-serif;
   color: var(--white);
 }
+.app-loki {
+  display: flex;
+  justify-content: center;
+}
