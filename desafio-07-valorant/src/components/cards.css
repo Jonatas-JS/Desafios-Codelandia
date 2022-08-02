@@ -1,0 +1,25 @@
+.cards {
+  width: 58vw;
+}
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards-container h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 4.7rem;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--white);
+}
+.cards-post {
+  display: flex;
+  gap: 1.25rem;
+}
+.card p {
+  margin-top: .75rem;
+  color: var(--red-light);
+
+  text-align: center;
+}

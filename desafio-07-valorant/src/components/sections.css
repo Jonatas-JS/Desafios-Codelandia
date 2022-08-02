@@ -1,0 +1,8 @@
+.sections-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.art-poster img {
+  height: 89vh;
+}
