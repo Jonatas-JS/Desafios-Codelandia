@@ -7,3 +7,12 @@
 .movie-poster img {
   border-radius: 1.25rem;
 }
+
+@media(max-width: 840px) {
+  .movie {
+    width: 86.67vw;
+  }
+  .movie-poster {
+    display: none;
+  }
+}

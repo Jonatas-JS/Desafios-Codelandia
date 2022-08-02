@@ -2,9 +2,23 @@
   text-align: center;
   margin-top: 2.81rem;
 }
+.title h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.51rem; 
+}
 .title h1 {
   font-size: 6rem;
   font-weight: 700;
   line-height: 7.29rem;
   margin-top: 2.18rem;
+}
+
+@media(max-width: 840px) {
+  .title h1 {
+    font-size: 4rem;
+  }
+  .title h3 {
+    font-size: 1.125rem;
+  }
 }

@@ -8,13 +8,14 @@
   --yellow-100: #FFA800;
   --blue-100: #0072D2;
   --white: #FFFFFF;
-  --balck: #131318;
+  --black: #131318;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   width: 100%;
   height: 100%;
@@ -30,4 +31,20 @@ body {
 .app-loki {
   display: flex;
   justify-content: center;
+}
+
+@media(max-width: 840px) {
+  body {
+    font-size: 84.7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+  }
 }

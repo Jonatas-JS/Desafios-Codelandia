@@ -1,6 +1,7 @@
 .info-movie {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 6.68rem;
   margin-top: 2.70rem;
 }
@@ -14,4 +15,23 @@
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.82rem;
+}
+
+@media(max-width: 840px) {
+  .info-movie {
+    margin-top: 19vh;
+    gap: 2.54rem;
+  }
+  .time, .info-movie p {
+    font-size: 1rem;
+  }
+  .time {
+    gap: .59rem;
+  }
+  .time img {
+    width: .93rem;
+  }
+  .star-points img {
+    width: 7.25rem;
+  }
 }

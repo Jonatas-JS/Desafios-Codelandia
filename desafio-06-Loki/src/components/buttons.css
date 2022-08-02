@@ -4,6 +4,7 @@
   gap: 1.31rem;
 }
 #butttonWatch, #buttonTrailer {
+  cursor: pointer;
   padding: .93rem 1.68rem;
   background: var(--blue-100);
   color: var(--white);
@@ -15,6 +16,23 @@
   line-height: 1.36rem;
 }
 #buttonTrailer {
-  background: var(--balck);
+  background: var(--black);
   border: 1px solid var(--white);
+}
+
+@media(max-width: 840px) {
+  .buttons {
+    padding-top: 2rem;
+    background: var(--black);
+    border-radius: 1.25rem 1.25rem 0 0;
+  }
+  #butttonWatch, #buttonTrailer {
+    width: 100%;
+    padding: .5rem 1.15rem;
+    font-size: .87rem;
+    line-height: 1.19rem;
+  }
+  .description-mobile {
+    display: grid;
+  }
 }
