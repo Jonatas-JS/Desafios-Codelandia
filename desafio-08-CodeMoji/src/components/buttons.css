@@ -25,3 +25,17 @@
 
   font-weight: 500;
 }
+
+@media(max-width: 840px) {
+  .buttons {
+    width: 100%;
+    justify-content: space-between;
+    gap: 0;
+  }
+  #criarMemoji, #verBiblioteca {
+    padding: .62rem 1.78rem;
+    font-size: .75rem;
+    font-weight: 500;
+    line-height: .90rem;
+  }
+}

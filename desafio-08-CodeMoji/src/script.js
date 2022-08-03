@@ -29,12 +29,12 @@ let images = [
 function renderImages() {
   let bloco = document.querySelector('.image-bg')
   for(i = 0; i < images.length; i++) {
-    bloco.innerHTML += `
-      <div class="image">
-        <img src="${images[i].image}"/>
-        <span><img src="${images[i].bgImage}"/></span>
-      </div>
-    `
+      bloco.innerHTML += `
+        <div class="image">
+          <img src="${images[i].image}"/>
+          <span><img src="${images[i].bgImage}"/></span>
+        </div>
+      `
   }
 }
 renderImages()

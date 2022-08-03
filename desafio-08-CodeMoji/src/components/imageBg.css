@@ -1,17 +1,46 @@
 .image-bg {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
   z-index: -1;
   position: absolute;
 }
-.image-bg .image {
+.image {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.image-bg .image > img {
+
+.image > img {
   z-index: 1;
   position: absolute;
 }
-.image-bg image span {
-  /* position: relative; */
-  z-index: -2;
+.img-grup01, .img-grup02 {
+  display: flex;
+  justify-content: space-between;
+
+}
+#img-01 {
+  margin-top: 6vh;
+  margin-left: -1vw;
+}
+#img-02 {
+  margin-top: 5.5vh;
+}
+#img-03 {
+  margin-top: 20vh;
+  margin-left: -4vw;
+}
+#img-04 {
+  margin-top: 22.75rem;
+  margin-left: 15vw;
+}
+#img-05 {
+  margin-top: -15vh;
+}
+
+
+.img-grup02 {
+  /* margin-top: 22.75vh; */
+  margin-top: 20.75rem;
 }

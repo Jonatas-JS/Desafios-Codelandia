@@ -3,9 +3,11 @@
 @import url(./components/appContainer.css);
 @import url(./components/section.css);
 @import url(./components/buttons.css);
+@import url(./components/comments.css);
 
 :root {
   --purple: #6610F2;
+  --white: #FCFCFC;
   --white-100: #F9F9F9;
   --white-200: #EAEAEA;
   --gray: #2F2F2F;
@@ -26,4 +28,10 @@ body {
 }
 .container {
   padding: 2.45vh 20.31vw 0 20.31vw;
+}
+
+@media(max-width: 840px) {
+  .container {
+    padding: 1.62rem 1.5rem 0 1.5rem;
+  }
 }
