@@ -1,8 +1,17 @@
 .sections-container {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
 }
 .art-poster img {
   height: 89vh;
+}
+
+@media(max-width: 840px) {
+  .art-poster {
+    display: none;
+  }
+  .sections-container {
+    justify-content: center;
+  }
 }

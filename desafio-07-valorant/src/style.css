@@ -20,6 +20,9 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: var(--white);
   background-image: url(./assets/background-effect.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   /* O código a baixo é para conseguir aplicar o efeito de opacity somente na imagem .app{background:url(./assets/background.svg} */
   position: relative;
@@ -27,6 +30,9 @@ body {
 .app:after {
   opacity: .2;
   background-image: url(./assets/background.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   /* O código a baixo é para conseguir aplicar o efeito de opacity somente na imagem .app{background:url(./assets/background.svg} */
   content: "";
@@ -41,4 +47,10 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+}
+
+@media(max-width: 840px) {
+  body {
+    font-size: 84.7%;
+  }
 }

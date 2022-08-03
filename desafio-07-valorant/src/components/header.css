@@ -7,3 +7,9 @@
   justify-content: space-between;
   padding: 0 10.49vw;
 }
+
+@media(max-width: 840px) {
+  .navbar header h3 {
+    display: none;
+  }
+}

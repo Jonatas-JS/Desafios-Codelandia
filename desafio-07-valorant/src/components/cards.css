@@ -28,3 +28,19 @@
 
   text-align: center;
 }
+
+@media(max-width: 840px) {
+  .cards {
+    margin-top: 2vh;
+  }
+  .cards-container h1 {
+    display: none;
+  }
+  .cards-post {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards-post .card img {
+    width: 16vh;
+  }
+}
