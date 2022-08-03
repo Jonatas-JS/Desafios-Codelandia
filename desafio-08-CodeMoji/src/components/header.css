@@ -1,0 +1,32 @@
+.navbar header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar header h3 {
+  font-family: 'Sen', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.40rem;
+}
+.search-in-login {
+  display: flex;
+  gap: 2.81rem;
+}
+.search-in-login p img {
+  display: none;
+}
+.search {
+  border: 2px solid var(--white-200);
+  border-radius: 50%;
+  padding: .75rem;
+}
+.search-in-login > p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.21rem;
+
+  border: 2px solid var(--white-200);
+  border-radius: 6.25rem;
+  padding: .93rem;
+}

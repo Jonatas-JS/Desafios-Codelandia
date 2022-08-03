@@ -1,0 +1,17 @@
+.image-bg {
+  z-index: -1;
+  position: absolute;
+}
+.image-bg .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-bg .image > img {
+  z-index: 1;
+  position: absolute;
+}
+.image-bg image span {
+  /* position: relative; */
+  z-index: -2;
+}
