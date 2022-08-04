@@ -25,6 +25,7 @@
 
 @media(max-width: 840px) {
   .comments {
+    margin-top: 15rem;
     flex-direction: column;
     padding: 1.56rem 1rem 1.25rem 1rem;
   }

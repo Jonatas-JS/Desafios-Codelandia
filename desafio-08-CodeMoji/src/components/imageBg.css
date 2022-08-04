@@ -10,7 +10,9 @@
   align-items: center;
   justify-content: center;
 }
-
+.img-mobile {
+  display: none;
+}
 .image > img {
   z-index: 1;
   position: absolute;
@@ -43,4 +45,35 @@
 .img-grup02 {
   /* margin-top: 22.75vh; */
   margin-top: 20.75rem;
+}
+
+@media(max-width: 840px) {
+  #img-03 {
+    display: none;
+  }
+  #img-01 > img,
+  #img-02 > img,
+  #img-04 > img,
+  #img-05 > img {
+    display: none;
+  }
+  .img-mobile {
+    display: grid;
+  }
+  #img-01 {
+    margin-top: -16vh;
+    margin-left: -2vw;
+  }
+  #img-02 {
+    margin-top: -23vh;
+    margin-right: -25vw;
+  }
+  #img-04 {
+    margin-top: 22vh;
+    margin-left: 0;
+  }
+  #img-05 {
+    margin-top: 8vh;
+    margin-right: -25vw;
+  }
 }
