@@ -11,7 +11,7 @@
 *	Vale ressaltar os posts são carregados por um arquivo JavaScript onde contem cada post como um object que é retornado em tela usando a função <strong>for</strong>.
 
 <p align="center"><img src=".github/images/image-01.png" width="100%"></p>
-<h3 align="center">--- Versão Web ---<h3>
+<h3 align="center">--- Mobile Version ---<h3>
 <p align="center"><img src=".github/images/image-02.png" height="100%"></p>
 <p align="center"><img src=".github/images/gif-01.gif"></p>
 
