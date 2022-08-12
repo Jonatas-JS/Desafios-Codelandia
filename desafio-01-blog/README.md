@@ -11,6 +11,8 @@
 *	Vale ressaltar os posts são carregados por um arquivo JavaScript onde contem cada post como um object que é retornado em tela usando a função <strong>for</strong>.
 
 <p align="center"><img src=".github/images/image-01.png" width="100%"></p>
+<h3 align="center">--- Versão Web ---<h3>
 <p align="center"><img src=".github/images/image-02.png" height="100%"></p>
 <p align="center"><img src=".github/images/gif-01.gif"></p>
+
 *	Esse processo de curtir e discutir foi um dos que mais senti dificuldades, porém, pude contornar com uma solução de uma experiencia anterior com um botão ativável de dark mod. Criando uma <strong>checkbox</strong> e mudando os styles quando checkbox:<strong>checked</strong> foi possível fazer com que quando o usuário clicar (checked) atribua uma propriedade <strong>fill</strong> mudando a cor do ícone.
