@@ -16,8 +16,6 @@ header {
 .headerBar {
   display: flex;
   justify-content: space-between;
-
-  /* width: 50vw; */
 }
 .header h3 {
   font-size: 1.5rem;

@@ -23,9 +23,6 @@ body {
   height: 100%;
 
   font-family: 'Lexend Deca', sans-serif;
-  /* font-family: 'Inter', sans-serif; */
-
-
 }
 body::-webkit-scrollbar {
   width: .2rem;

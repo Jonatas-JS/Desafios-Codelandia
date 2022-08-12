@@ -41,12 +41,3 @@ for (let i = 0; i < postsList.length; i++) {
   </div>
   `
 }
-
-// function like(){
-//   let likeStatus = document.querySelector('.like')
-//   if(likeStatus = document.querySelector('.like .active')){
-//     likeStatus.classList.remove('active')
-//   } else {
-//     likeStatus.classList.add('active')
-//   }
-// }
