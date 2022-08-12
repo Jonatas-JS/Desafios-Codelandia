@@ -13,7 +13,7 @@
 <h3 align="center">--- Mobile Version ---<h3>
 <p align="center"><img src=".github/images/gif-01.gif" width="100%"></p>
 
-* Como implementação optei por criar um efeito de zoom, para isso usei as propriedades de estilo <strong> -webkit-transform: scale(1.1)</strong> para mudar a escala do objeto quando posicionar o mouse sobre ele, e <strong><font color=”#1572B6”>-webkit-transition: transform .4s ease-in-out</font></strong> para ajustar o tempo desse efeito.
-* Também foi implementado o modelo do tênis como <strong><font color=”#1572B6”>title</font></strong>, assim, ao posicionar o mouse sobre a imagem ele mostrará o modelo correspondente ao tênis.
+* Como implementação optei por criar um efeito de zoom, para isso usei as propriedades de estilo <strong> -webkit-transform: scale(1.1)</strong> para mudar a escala do objeto quando posicionar o mouse sobre ele, e <strong bgcolor="#1572B6">-webkit-transition: transform .4s ease-in-out</strong> para ajustar o tempo desse efeito.
+* Também foi implementado o modelo do tênis como <strong bgcolor="#1572B6">title</strong>, assim, ao posicionar o mouse sobre a imagem ele mostrará o modelo correspondente ao tênis.
 
 <p align="center"><img src=".github/images/gif-02.gif"></p>
