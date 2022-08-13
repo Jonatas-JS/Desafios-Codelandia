@@ -2,6 +2,7 @@
 @import url(./components/infoMovie.css);
 @import url(./components/movieButtons.css);
 @import url(./components/movieImage.css);
+@import url(./components/modal.css);
 
 :root {
   --green-100: #628E75;
@@ -26,6 +27,7 @@ body {
   font-size: 1rem;
 }
 .container {
+  width: 100vw;
   height: 100%;
   padding: 2.84vh 11.45vw 11.45vh 11.45vw;
 }
