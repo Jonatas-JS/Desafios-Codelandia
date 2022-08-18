@@ -1,0 +1,40 @@
+.modal {
+  display: none;
+}
+.modal.visible {
+  width: 100%; /*é necessário que width e height tenha 100% para que o align e ksutify possam ser aplicados corrtamente*/
+  height: 100%;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+
+  background: rgba(0, 0, 0, .7);
+  backdrop-filter: blur(1px);
+}
+.close-button {
+  text-align: right;
+  font-weight: bold;
+}
+.close-button span {
+  cursor: pointer;
+  right: 1rem;
+  padding: .3rem .8rem;
+
+  color: var(--black);
+  background-color: var(--white);
+  border-radius: 50% 50% 0 0;
+}
+.trailer-modal iframe {
+  border: 5px solid var(--white);
+  border-radius: .18rem;
+}
+
+@media(max-width: 840px) {
+
+  .trailer-modal iframe {
+    width: 90vw;
+  }
+}

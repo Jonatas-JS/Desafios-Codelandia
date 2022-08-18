@@ -3,6 +3,7 @@
 @import url(./components/title.css);
 @import url(./components/sinopse.css);
 @import url(./components/buttons.css);
+@import url(./components/modal.css);
 
 :root {
   --yellow-100: #FFA800;
@@ -18,7 +19,7 @@
 
 body {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 
   background-image: url(./assets/background+efect.svg);
   background-size: cover;
@@ -31,6 +32,16 @@ body {
 .app-loki {
   display: flex;
   justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+}
+section {
+  margin-bottom: 7rem;
 }
 
 @media(max-width: 840px) {
@@ -46,5 +57,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: space-between;
+    justify-content:flex-start; /*como já está definido no container/web como center,
+    aqui usase o flex-start para começar na posição inicial*/
+  }
+  section {
+    margin-bottom: 0;
   }
 }
