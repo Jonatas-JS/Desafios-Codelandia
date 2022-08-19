@@ -15,7 +15,7 @@
 }
 body {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 
   font-family: 'Open Sans', sans-serif;
   color: var(--white);
@@ -24,7 +24,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 
-  /* O código a baixo é para conseguir aplicar o efeito de opacity somente na imagem .app{background:url(./assets/background.svg} */
   position: relative;
 }
 .app:after {

@@ -1,10 +1,10 @@
 .sections-container {
+  height: 91.75%;
   display: flex;
-  /* align-items: center; */
   justify-content: space-between;
 }
 .art-poster img {
-  height: 89vh;
+  height: 91.75vh;
 }
 
 @media(max-width: 840px) {

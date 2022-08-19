@@ -22,6 +22,14 @@
   display: flex;
   gap: 1.25rem;
 }
+.cards-post .card img {
+  width: 26vh;
+  cursor: pointer;
+}
+.cards-post .card img:hover {
+  scale: 1.1;
+  transition: 1.5s;
+}
 .card p {
   margin-top: .75rem;
   color: var(--red-light);

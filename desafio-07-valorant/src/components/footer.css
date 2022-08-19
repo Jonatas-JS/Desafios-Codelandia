@@ -6,6 +6,9 @@ footer ul {
   list-style: none;
   gap: 2.18rem;
 }
+footer ul li {
+  cursor: pointer;
+}
 
 @media(max-width: 840px) {
   footer {
