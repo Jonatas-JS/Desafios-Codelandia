@@ -40,9 +40,7 @@ body {
   display: grid;
   justify-content: center;
 }
-section {
-  margin-bottom: 7rem;
-}
+
 
 @media(max-width: 840px) {
   body {

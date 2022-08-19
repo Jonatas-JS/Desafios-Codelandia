@@ -1,8 +1,8 @@
 .info-movie {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 6.68rem;
+  justify-content: space-between;
+  /* gap: 6.68rem; */
   margin-top: 2.70rem;
 }
 .time {
@@ -20,7 +20,8 @@
 @media(max-width: 840px) {
   .info-movie {
     margin-top: 19vh;
-    gap: 2.54rem;
+    /* gap: 2.54rem; */
+    justify-content: space-around;
   }
   .time, .info-movie p {
     font-size: 1rem;
