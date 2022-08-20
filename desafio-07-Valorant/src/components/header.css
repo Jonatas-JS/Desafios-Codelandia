@@ -1,0 +1,18 @@
+.navbar {
+  padding-top: 2.56vh;
+}
+.navbar header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10.49vw;
+}
+.navbar header img {
+  cursor: pointer;
+}
+
+@media(max-width: 840px) {
+  .navbar header h3 {
+    display: none;
+  }
+}

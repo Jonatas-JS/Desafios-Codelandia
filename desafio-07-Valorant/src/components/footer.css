@@ -1,0 +1,17 @@
+footer {
+  margin-top: 25vh;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  gap: 2.18rem;
+}
+footer ul li {
+  cursor: pointer;
+}
+
+@media(max-width: 840px) {
+  footer {
+    margin-top: 13vh;
+  }
+}
